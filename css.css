@@ -77,3 +77,11 @@ input[type="text"] {
 b {
     color: #000;
 }
+
+a {
+    color: #0059a6;
+}
+
+a:hover {
+    color: #7dc3ff;
+}
