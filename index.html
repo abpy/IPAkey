@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>IPA</title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <script src="ipa.js"></script>
+    <script src="c.js"></script>
+</head>
+<body>
+    <div id="all">
+        <h2>Pronunciation Key for the IPA</h2>
+        <div id="main">
+            <div id="inputtext">
+                <form><input type="text" name="itext" value="/ˌwɪkɨˈpiːdiə/"></form>
+<!--                /ˈɛərən/ /ˈfɔərieɪ/-->
+                <a id="button" onclick="change()">Enter</a>
+            </div><br><br>
+            <div id="output">
+                <ul id="outUl">
+                </ul>
+            </div>
+        </div>
+        <div id="footer">
+            This little web-app shows example words to aid in reading pronunciations written in the International Phonetic Alphabet.<br>
+            The IPA symbols and associated words come from the wikipedia article <a href="http://en.wikipedia.org/wiki/Help:IPA_for_English#Key">Help:IPA for English</a><br>
+            If a symbol is not one on that page "not in table" will be shown.
+        </div>
+    </div>
+</body>
+</html>
