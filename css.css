@@ -3,13 +3,14 @@ body {
     background-color: #fdf6e8; /*#fdf6e8*/
 }
 #all {
-    width: 800px;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
 h2 {
     padding-left: 50px;
+    padding-right: 50px;
     font-size: 32px;
 /*    color: #6e5c45;*/
 }
@@ -30,15 +31,19 @@ h2 {
     border-radius: 16px;
 }
 #inputtext {
-    width: 480px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+span {
+    padding-right: 30px;
+    display: block;
+    overflow: hidden;
 }
 input[type="text"] {
     float: left;
     font-size: 22px;
     color: #bbb;
-    width: 350px;
+    width: 100%;
     border-width: 2px;
     border-color: #7dc3ff;
     border-style: solid;
@@ -50,8 +55,7 @@ input[type="text"] {
     font-size: 23px;
     font-weight: bold;
     color: #0059a6;
-    float: left;
-    margin-left: 4px;
+    float: right;
     display: block;
     background-color: #7dc3ff;
     width: 80px;
